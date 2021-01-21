@@ -10,7 +10,7 @@ import Client05 from "assets/images/clients-05.svg";
 
 const Clients = () => {
   return (
-    <Fade bottom delay={200}>
+    <Fade delay={200}>
       <Section className="clients">
         <div class="container">
           <div class="clients-inner section-inner has-top-divider has-bottom-divider">
