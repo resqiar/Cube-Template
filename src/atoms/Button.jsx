@@ -7,6 +7,7 @@ const Button = (params) => {
     if(params.isPrimary) className.push("button-primary")
     if (params.isWideMobile) className.push("button-wide-mobile")
     if (params.isSmall) className.push("button-sm")
+    if (params.isBlock) className.push("button-block")
 
     return (
         <button className={className.join(" ")}>
@@ -19,6 +20,7 @@ Button.propTypes = {
     isPrimary : propTypes.bool,
     isWideMobile : propTypes.bool,
     isSmall : propTypes.bool,
+    isBlock : propTypes.bool,
 }
 
 
