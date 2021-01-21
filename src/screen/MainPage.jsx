@@ -5,6 +5,7 @@ import Hero from 'components/Hero'
 import Clients from 'components/Clients'
 import Features from 'components/Features'
 import Prices from 'components/Prices'
+import Footer from 'components/Footer'
 
 
 export const MainPage = () => {
@@ -17,6 +18,7 @@ export const MainPage = () => {
                 <Features></Features>
                 <Prices></Prices>
             </main>
+            <Footer></Footer>
         </div>
     )
 }
